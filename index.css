@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-image: url(img/background-gatinho.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 35rem;
+}
+
+.logotipo {
+    max-height: 100px;
+    max-width: 200px;
+}
