@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Landing Page</title>
 </head>
-<section class="home bg-image ">
+<section class="home bg-image">
     <header>
-        <nav id="cabecalho" class="navbar navbar-expand-lg navbar-light">
+        <nav id="cabecalho" class="navbar navbar-expand-lg navbar-light mb-4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="logotipo" src="img/logotipo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -47,42 +49,67 @@
             </div>
         </nav>
     </header>
-    <div class="col form-style align-self-end">
-        <form id="marcar-horário" class="row g-3">
-            <div class="col-md-5 mb-2">
-                <label class="form-label">Nome do seu Pet</label>
-                <input type="text" class="form-control">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-auto col-md-7 me-5">
+                <div class="justify-content-start ms-5 me-4">
+                    <p class="titulo-home fade-in">Bem vindo(a) a Pet Shop!</p>
+                    <h1 class="subtitulo-home mb-4 fade-in">Todo o cuidado para seu bichinho de estimação</h1>
+                    <p class="texto-home fade-in">A Pet Shop proporciona serviços de alta qualidade para seu pet, de qualquer raça e
+                        idade.
+                    </p>
+                    <div class="left-animation">
+                    <div class="row align-items-start mt-4 d-flex align-items-center">
+                        <img class="img-check col-auto" src="img/check.png">
+                        <p class="col col-md-6 texto-check">Serviço personalizado com consultas gratuitas</p>
+                    </div>
+                    <div class="row align-items-start mt-4 d-flex align-items-center">
+                        <img class="img-check col-auto" src="img/check.png">
+                        <p class="col col-md-6 texto-check">100% de satisfação garantida</p>
+                    </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-5">
-                <label class="form-label">Raça</label>
-                <select class="form-select">
-                    <option selected>Gato</option>
-                    <option>Cachorro</option>
-                  </select>
+            <div class="col-sm-auto col-md-4 offset-md-0 form-style mt-5 right-animation">
+                <form id="marcar-horário" class="row g-3">
+                    <h2 class="form-titulo">Agende um horário ou consulte valores!</h2>
+                    <p class="form-texto px-4">Preencha os dados e entraremos em contato o mais breve possível.</p>
+                    <div class="col-auto mb-2 px-4">
+                        <label class="form-label form-texto">Nome do seu Pet</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-auto mb-2 px-4">
+                        <label class="form-label form-texto">Raça</label>
+                        <select class="form-select">
+                            <option selected>Gato</option>
+                            <option>Cachorro</option>
+                        </select>
+                    </div>
+                    <div class="col-auto mb-2 px-4">
+                        <label class="form-label form-texto">Data</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <div class="col-auto mb-2 px-4">
+                        <label class="form-label form-texto">Período do dia</label>
+                        <select class="form-select">
+                            <option selected>Manhã (das 8h até 12h)</option>
+                            <option>Tarde (das 13hh até 18h)</option>
+                        </select>
+                    </div>
+                    <div class="col-auto mb-2 px-4">
+                        <label class="form-label form-texto">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="col-auto mb-3 px-4">
+                        <label class="form-label form-texto">Telefone</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <div class="posicao-botao">
+                        <button type="submit" class="button-style">&#128062; Reserve agora!</button>
+                    </div>
+                </form>
             </div>
-            <div class="col-md-5 mb-2">
-                <label class="form-label">Data</label>
-                <input type="number" class="form-control">
-            </div>
-            <div class="col-md-5 mb-2">
-                <label class="form-label">Período do dia</label>
-                <select class="form-select">
-                    <option selected>Manhã (das 8h até 12h)</option>
-                    <option>Tarde (das 13hh até 18h)</option>
-                  </select>
-            </div>
-            <div class="col-md-7 mb-2">
-                <label class="form-label">Email</label>
-                <input type="email" class="form-control">
-            </div>
-            <div class="col-md-7 mb-3">
-                <label class="form-label">Telefone</label>
-                <input type="number" class="form-control">
-            </div>
-            <div class="posicao-botao">
-                <button type="submit" class="button-style">&#128062; Reserve agora!</button>
-            </div>
-        </form>
+        </div>
     </div>
 </section>
 
