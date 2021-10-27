@@ -14,18 +14,23 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 45rem;
+    min-height: 50rem;
 }
 
 .logotipo {
-    max-height: 150px;
-    max-width: 300px;
+    max-height: 10rem;
+    max-width: 12rem;
+    margin-left: 10px;
+}
+
+.position-home {
+    margin-top: 5rem;
 }
 
 #cabecalho {
     background-color: white;
     opacity: 0.9;
-    max-height: 8rem;
+    max-height: 5rem;
 }
 .right-animation {
     animation: go-left 1.5s;
