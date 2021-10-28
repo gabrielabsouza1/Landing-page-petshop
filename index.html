@@ -17,36 +17,35 @@
         <nav id="cabecalho" class="navbar navbar-expand-lg navbar-light mb-2 fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="logotipo" src="img/logotipo.png"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre nós</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Serviços</a>
-                          </li>
-                          <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-nós">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#serviços">Serviços</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Pacotes</a>
-                          </li>
-                          <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Localização</a>
-                          </li>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container-fluid bg-image position-home">
+    <div class="container-fluid bg-image position-home" id="home">
         <div class="row">
-            <div class="col-sm-auto col-md-7 me-5">
+            <div class="col-sm-auto col-md-7 me-5 pt-4">
                 <div class="justify-content-start ms-5 me-4">
                     <p class="titulo-home fade-in">Bem vindo(a) a Pet Shop!</p>
                     <h1 class="subtitulo-home mb-4 fade-in">Todo o cuidado para seu bichinho de estimação</h1>
@@ -82,6 +81,18 @@
                         </select>
                     </div>
                     <div class="col-auto mb-2 px-4">
+                        <label class="form-label form-texto">Serviço</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Selecione</option>
+                            <option value="1">Banho</option>
+                            <option value="2">Tosa</option>
+                            <option value="3">Banho e Tosa</option>
+                            <option value="4">Hospedagem</option>
+                            <option value="5">Cuidadora</option>
+                            <option value="6">Consulta e Exames</option>
+                          </select>
+                    </div>
+                    <div class="col-auto mb-2 px-4">
                         <label class="form-label form-texto">Data</label>
                         <input type="number" class="form-control">
                     </div>
@@ -110,12 +121,96 @@
 </section>
 
 <body>
-    <section id="sobre-nós">
-
+    <section class="container-fluid my-5" id="sobre-nós">
+        <div class="row justify-content-center">
+            <img class="img-vet col-auto fade-in" src="img/vet1.png">
+            <div class="col-sm-auto col-md-auto col-lg-6">
+                <p class="my-2 titulo-sobre fade-in">Porque as pessoas nos escolhem</p>
+                <h3 class="my-2 subtitulo-sobre fade-in">Algumas razões pelas quais nosso serviço é o preferido</h3>
+                <p class="my-3 texto-sobre fade-in">Lorem ipsum dolor sit amet. Numquam corporis a tempore cumque et
+                    libero laudantium et rerum
+                    quibusdam. Vel dolores quae vel ullam quos ut voluptates maxime quo Quis vitae id sequi mollitia aut
+                    recusandae quae et inventore aliquid.</p>
+                <ul class="razoes right-animation">
+                    <li class="my-1">
+                        <img class="img-check2 col-auto mx-3" src="img/check2.png">
+                        <p class="texto-sobre">Lorem ipsum dolor sit amet.</p>
+                    </li>
+                    <li class="my-1">
+                        <img class="img-check2 col-auto mx-3" src="img/check2.png">
+                        <p class="texto-sobre">Lorem ipsum dolor sit amet.</p>
+                    </li>
+                    <li class="my-1">
+                        <img class="img-check2 col-auto mx-3" src="img/check2.png">
+                        <p class="texto-sobre">Lorem ipsum dolor sit amet.</p>
+                    </li>
+                    <li class="my-1">
+                        <img class="img-check2 col-auto mx-3" src="img/check2.png">
+                        <p class="texto-sobre">Lorem ipsum dolor sit amet.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <section id="serviços">
-
+    <section class="bg-servicos pb-5" id="serviços">
+        <div class="col-sm-auto col-md-auto col-lg-9 py-4 mx-5 left-animation">
+            <p class="titulo-sobre my-4">Tratamento profissional para o seu bichinho</p>
+            <h4 class="subtitulo-servicos my-4">Seu pet pode aproveitar dos melhores serviços e ter sua segurança
+                garantida</h4>
+            <p class="texto-sobre my-4">Prezamos pela qualidade do serviço. Lorem ipsum dolor sit amet. Numquam corporis
+                a tempore cumque et libero laudantium et rerum quibusdam.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-auto col-md-auto card mx-2 my-1 fade-in" style="width: 15rem;">
+                <h5 class="titulo-card">Banho</h5>
+                <img src="img/banho.png" class="img-card" alt="...">
+                <div class="card-body">
+                    <p class="card-text texto-sobre">Lorem ipsum dolor sit amet. Numquam corporis a tempore cumque et
+                        libero laudantium et rerum
+                        quibusdam.</p>
+                </div>
+            </div>
+            <div class="col-sm-auto col-md-auto card mx-2 my-1 fade-in" style="width: 15rem;">
+                <h5 class="titulo-card">Tosa</h5>
+                <img src="img/tosa.png" class="img-card" alt="...">
+                <div class="card-body">
+                    <p class="card-text texto-sobre">Lorem ipsum dolor sit amet. Numquam corporis a tempore cumque et
+                        libero laudantium et rerum
+                        quibusdam.</p>
+                </div>
+            </div>
+            <div class="col-sm-auto col-md-auto card mx-2 my-1 fade-in" style="width: 15rem;">
+                <h5 class="titulo-card">Hospedagem</h5>
+                <img src="img/hotel.png" class="img-card" alt="...">
+                <div class="card-body">
+                    <p class="card-text texto-sobre">Lorem ipsum dolor sit amet. Numquam corporis a tempore cumque et
+                        libero laudantium et rerum
+                        quibusdam.</p>
+                </div>
+            </div>
+            <div class="col-sm-auto col-md-auto card mx-2 my-1 fade-in" style="width: 15rem;">
+                <h5 class="titulo-card">Cuidadora</h5>
+                <img src="img/cuidadora.png" class="img-card" alt="...">
+                <div class="card-body">
+                    <p class="card-text texto-sobre">Lorem ipsum dolor sit amet. Numquam corporis a tempore cumque et
+                        libero laudantium et rerum
+                        quibusdam.</p>
+                </div>
+            </div>
+            <div class="col-sm-auto col-md-auto card mx-2 my-1 fade-in" style="width: 15rem;">
+                <h5 class="titulo-card">Consultas e exames</h5>
+                <img src="img/exame.png" class="img-card" alt="...">
+                <div class="card-body">
+                    <p class="card-text texto-sobre">Lorem ipsum dolor sit amet. Numquam corporis a tempore cumque et
+                        libero laudantium et rerum
+                        quibusdam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="posicao-botao">
+            <button type="submit" class="button-style mt-5"><a href="#home">&#128062; Reserve agora!</a></button>
+        </div>
     </section>
 
     <section id="pacotes">
