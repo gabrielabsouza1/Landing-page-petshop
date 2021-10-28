@@ -213,6 +213,7 @@ body {
 
 .card-style:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+  transition: 0.5s;
 }
 
 .titulo-card {
