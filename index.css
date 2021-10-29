@@ -23,20 +23,21 @@ body {
     margin-left: 10px;
 }
 
-.contato {
-  width: 15rem;
-  height: 15rem;
-}
-
 .position-home {
     margin-top: 5rem;
-}
+} 
 
 #cabecalho {
     background-color: white;
-    opacity: 0.9;
-    max-height: 5rem;
+    opacity: 1;
+    height: 5rem;
 }
+
+.bg-nav {
+  background-color: white;
+  opacity: 1;
+}
+
 .right-animation {
     animation: go-left 1.5s;
 }
@@ -275,7 +276,7 @@ body {
 
 .redes-sociais {
   display: flex;
-  width: 400px;
+  width: 320px;
   justify-content: center;
 }
 
