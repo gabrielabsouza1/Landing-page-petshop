@@ -273,6 +273,12 @@ body {
   height: 7rem;
 }
 
+.redes-sociais {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
 .whatsapp {
   background-image: url(img/whatsapp.png);
   width: 40px;
@@ -280,6 +286,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 
 .whatsapp:hover {
