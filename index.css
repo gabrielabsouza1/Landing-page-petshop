@@ -23,6 +23,11 @@ body {
     margin-left: 10px;
 }
 
+.contato {
+  width: 15rem;
+  height: 15rem;
+}
+
 .position-home {
     margin-top: 5rem;
 }
@@ -251,6 +256,8 @@ body {
 
 .map-style {
   border-radius: 20px;
+  width: auto;
+  height: 400px;
 }
 
 .bg-localizacao {
@@ -258,5 +265,67 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 50rem;
+  min-height: 57rem;
 }
+
+.logotipo-footer {
+  width: 20rem;
+  height: 7rem;
+}
+
+.whatsapp {
+  background-image: url(img/whatsapp.png);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.whatsapp:hover {
+  background-image: url(img/whatsapp-verde.png);
+  transition: 0.5s;
+}
+
+.facebook {
+  background-image: url(img/facebook.png);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.facebook:hover {
+  background-image: url(img/facebook-azul.png);
+  transition: 0.5s;
+}
+
+.instagram {
+  background-image: url(img/instagram.png);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.instagram:hover {
+  background-image: url(img/instagram-colorido.png);
+  transition: 0.5s;
+}
+
+.github {
+  background-image: url(img/github.png);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.github:hover {
+  background-image: url(img/github-preto.png);
+  transition: 0.5s;
+}
+

@@ -37,10 +37,12 @@
                             <a class="nav-link" href="#pacotes">Pacotes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Localização</a>
+                            <a class="nav-link" href="#localizacao">Localização</a>
                         </li>
                     </ul>
+                    <img class="contato mx-3" src="img/contato.png">
                 </div>
+
             </div>
         </nav>
     </header>
@@ -281,23 +283,45 @@
         </div>
     </section>
 
-    <section class="bg-localizacao container-fluid justify-content-center" id="localizacao">
+    <section class="bg-localizacao container-fluid" id="localizacao">
         <div class="text-center">
-            <h7>Nos encontre!</h7>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <iframe class="map-style"
+            <div class="col-sm-auto col-md-auto col-lg-12 pt-3">
+                <p class="titulo-sobre my-4">A Pet Shop se encontra no coração da cidade</p>
+                <h7 class="subtitulo-servicos my-4">Nos encontre!</h7>
+                <p class="texto-sobre my-4">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <iframe class="col-sm-auto col-md-auto col-lg-8 map-style"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14625.820145150488!2d-46.63945990111088!3d-23.588008322509918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1635450531872!5m2!1spt-BR!2sbr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
 </body>
 <footer>
-    <div id="contato">
-
+    <div class="row justify-content-center py-4 ms-4">
+        <div class="col-sm-auto col-md-auto col-lg-4" id="contato">
+            <img class="logotipo-footer" src="img/logotipo.png">
+            <p class="texto-sobre">Av. Me Contrata, 502</p>
+            <p class="texto-sobre">Porto Alegre - Rio Grande do Sul</p>
+            <img src="img/telefone.png">
+            <a class="texto-sobre" href="mailto:gabigabrielabs@gmail.com?Subject=Quero%20te%20contratar!">gabigabrielabs@gmail.com</a>
+        </div>
+        <div class="col-sm-auto col-md-auto col-lg-4 mt-4 justify-content-center" id="novidades">
+            <h8 class="titulo-card">Fique por dentro das nossas novidades!</h8>
+            <p class="texto-sobre my-3">Lorem ipsum dolor sit amet. Numquam corporis a tempore cumque et
+                libero</p>
+            <input type="email" placeholder="Seu email" class="form-control">
+        </div>
+        <div class="col-sm-auto col-md-auto col-lg-4 mt-4 justify-content-center" id="redes sociais">
+            <h8 class="titulo-card mb-4">Nos siga nas redes sociais!</h8>
+            <div class="row my-4">
+            <div class="col-1 mx-4 whatsapp"></div>
+            <div class="col-1 mx-4 facebook"></div>
+            <div class="col-1 mx-4 instagram"></div>
+            <div class="col-1 mx-4 github"></div>
+            </div>
+        </div>
     </div>
-    <div id="novidades">
-
-    </div>
+    <p class="texto-sobre my-3 text-center">Feito com <img src="img/amor.png"> por Gabriela Souza</p>
 </footer>
 
 </html>
